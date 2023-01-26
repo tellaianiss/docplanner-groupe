@@ -1,0 +1,134 @@
+* {
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+section {
+    max-width: 1015px;
+    margin: auto;
+}
+
+.navbarContainer {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.logoDocPlanner {
+    width: 268px;
+    height: 33px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0px 9px;
+    display: inline-block;
+    color: #747474
+}
+
+#About,
+h2 {
+    color: rgb(0, 191, 165);
+}
+
+a {
+    text-decoration: none;
+}
+
+#etoile {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.About_us_p {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.About_us_p>p {
+    line-height: 1.75;
+    padding: 10px;
+    color: #747474
+}
+
+.total_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_1,
+.card_2,
+.card_3 {
+    width: 33.33%;
+    height: 320px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.card_container {
+    padding: 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+}
+
+.card_1 {
+    background-color: #00ccb1;
+}
+
+.card_2 {
+    background-color: #3d83df;
+}
+
+.card_3 {
+    background-color: #1b2734;
+}
+
+fa-hospital-user {
+    width: 200%;
+}
+
+.total_card h1 {
+    font-family: Work Sans, Arial, sans-serif;
+    letter-spacing: -.3px;
+    font-size: 1.625em;
+    font-weight: 400;
+    margin: 0.3em 0;
+}
+
+.total_card p {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+#country {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.option {
+    color: #3d83df;
+}
