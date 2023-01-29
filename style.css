@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* ------navbar------ */
 
@@ -39,6 +44,7 @@ li {
 }
 
 section {
+    max-width: 1550px;
     display: flex;
     flex-direction: column;
     padding: 4% 15% 0% 15%;
@@ -55,6 +61,7 @@ section {
 #About,
 h2 {
     color: rgb(0, 191, 165);
+    margin: 0px 0px 15px 0px;
 }
 
 a {
@@ -64,6 +71,7 @@ a {
 #etoile {
     display: flex;
     justify-content: center;
+    margin: 0px 0px 35px 0px;
 }
 
 h2 {
