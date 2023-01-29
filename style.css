@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     font-weight: 400;
-    font-family: Roboto, Arial, sans-serif;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    padding: 4% 10% 0% 10%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -15,7 +13,7 @@ section {
 .navbar {
     display: flex;
     align-items: center;
-    width: 1015px;
+    width: 100%;
     position: fixed;
     background: #ffffff;
     z-index: 1;
@@ -36,7 +34,14 @@ ul {
 li {
     padding: 0px 9px;
     display: inline-block;
-    color: #747474
+    color: #747474;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 15% 0% 15%;
 }
 
 
@@ -125,7 +130,7 @@ fa-hospital-user {
 }
 
 .total_card h1 {
-    font-family: Work Sans, Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: -.3px;
     font-size: 1.625em;
     font-weight: 400;
@@ -149,4 +154,148 @@ fa-hospital-user {
 
 .option {
     color: #3d83df;
+}
+
+.brandsLogo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.brandsLogo>li {
+    font-size: 1rem;
+    display: inline-flex;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandsLogo img {
+    filter: grayscale(100%);
+    opacity: 0.45;
+    width: 200;
+}
+
+.brandsLogo img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.brandSection {
+    display: flex
+}
+
+.brandSection h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    float: left;
+    width: 50%;
+    font-size: 1.625em;
+    padding: 0px 5px 0px 5px;
+}
+
+
+/* --------sectiontwo------ */
+
+.section_two {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    overflow: hidden;
+    margin: 50px 0px 50px 0px;
+    height: 650px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: bottom -92px left 80px;
+}
+
+#logo {
+    z-index: 0;
+    width: 500px;
+    left: -10px;
+    bottom: -885px;
+}
+
+.sectiontwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    margin-top: 23px;
+}
+
+.container_career {
+    display: grid;
+    grid-row: 1;
+    margin-top: 40px;
+    margin-right: 60px;
+    padding: 10px 10px 10px 0px;
+    height: 200px;
+}
+
+.container_career h1 {
+    color: #00b39b;
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+.container_career p {
+    line-height: 1.7142857143;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: #747474;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    grid-row: 1/8;
+    grid-column: 2;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    height: 250px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+}
+
+.card1,
+.card3 {
+    margin-top: 20px;
+}
+
+.card3 {
+    margin-top: -69px;
+}
+
+.card4 {
+    margin-top: -90px;
+}
+
+.card h6 {
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #00b39b;
+}
+
+.card p {
+    font-size: small;
+    text-align: center;
+    color: #747474;
+    font-family: 'Roboto';
 }
