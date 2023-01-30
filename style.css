@@ -366,10 +366,45 @@ fa-hospital-user {
     COLOR: #FFF;
     FONT-SIZE: x-small;
     FONT-WEIGHT: 600;
+    text-transform: uppercase;
 }
 
 .description h6 {
     color: #747474;
     font-family: 'Roboto';
     font-weight: 500;
+}
+
+.btn_four {
+    border: NONE;
+    BACKGROUND: #3d83df;
+    WIDTH: 173PX;
+    height: 34px;
+    BORDER-RADIUS: 5PX;
+    COLOR: #FFF;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: 600;
+    text-transform: uppercase;
+}
+
+.section_four h2 {
+    font-size: x-large;
+}
+
+.countryLink {
+    color: #3d83df;
+}
+
+.main_footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-top: 1px solid #eef2f2;
+    padding: 32PX 0PX 23PX 0PX;
+    margin-top: 70PX;
+}
+
+.main_footer p {
+    color: #747474;
+    font-size: x-small;
 }
